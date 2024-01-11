@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Datastructure
 {
     //List 생성 과정
-    public class List<T>//List 클래스 생성, 자료형 일반화
+    public class List<T>//List 클래스 생성, 일반화 자료형 생성
     {
         private const int DefaultCapacity = 4;
-        private T[] items;
-        private int count;
+        private T[] items; //배열 생성
+        private int count; //크기 생성 
 
         public List() 
         {
@@ -26,6 +26,7 @@ namespace Datastructure
         }
 
         public int Capacity { get { return items.Length; } }
+        //배열의 크기인 Capacity는 items배열의 길이를 읽어오도록 get생성
         public int Count { get { return count; } }
 
         public bool IsFull { get { return count == items.Length; } }//추가 방식
@@ -53,8 +54,8 @@ namespace Datastructure
         {
             //예외처리 필요 : 크기를 벗어나게 중간에 끼워넣는 것이 불가능
             if (index < 0 || index > count)
-           //     Console.WriteLine("Error 불가능하다.");
-            throw new ArgumentOutOfRangeException("index");//추가 방식
+                //     Console.WriteLine("Error 불가능하다.");
+                throw new ArgumentOutOfRangeException("index");//추가 방식
 
             if (IsFull)
                 Grow();
