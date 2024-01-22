@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Algorithm", "00.Algorithm\00.Algorithm.csproj", "{3F537898-AE3B-4E20-A664-BF1E6088F53B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.Algorithm", "00.Algorithm\00.Algorithm.csproj", "{3F537898-AE3B-4E20-A664-BF1E6088F53B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.List", "01.List\01.List.csproj", "{E37BB5B9-BA18-41B7-844A-871B2330272F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.List", "01.List\01.List.csproj", "{E37BB5B9-BA18-41B7-844A-871B2330272F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LinkedList", "02.LinkedList\02.LinkedList.csproj", "{7BC3E3AB-504D-469B-8242-CBC5D7294746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.LinkedList", "02.LinkedList\02.LinkedList.csproj", "{7BC3E3AB-504D-469B-8242-CBC5D7294746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Stack", "03.Stack\03.Stack.csproj", "{65E41E8A-55F4-4FC9-96FD-B83FDB8F6406}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Stack", "03.Stack\03.Stack.csproj", "{65E41E8A-55F4-4FC9-96FD-B83FDB8F6406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Queue", "04.Queue\04.Queue.csproj", "{2F2A1F46-56BE-4413-93C3-F5974BC98673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Queue", "04.Queue\04.Queue.csproj", "{2F2A1F46-56BE-4413-93C3-F5974BC98673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BinarySearchTree", "05.BinarySearchTree\05.BinarySearchTree.csproj", "{58C9DB65-EAA3-4685-A2EC-97E27D0F22EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BinarySearchTree", "05.BinarySearchTree\05.BinarySearchTree.csproj", "{58C9DB65-EAA3-4685-A2EC-97E27D0F22EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Heap", "06.Heap\06.Heap.csproj", "{48CC99AD-4229-42FE-917E-70E09B567B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Heap", "06.Heap\06.Heap.csproj", "{48CC99AD-4229-42FE-917E-70E09B567B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.HashTable", "07.HashTable\07.HashTable.csproj", "{864F8DD6-F3D2-4313-B76E-6587564E9870}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.DesignTechnique", "08.DesignTechnique\08.DesignTechnique.csproj", "{538931F9-98DB-4FFB-BADD-02BE5E09C6CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Sorting", "09.Sorting\09.Sorting.csproj", "{7EE4D6D9-43E5-4EF8-8EB2-4B8D07C6E71D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{48CC99AD-4229-42FE-917E-70E09B567B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48CC99AD-4229-42FE-917E-70E09B567B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48CC99AD-4229-42FE-917E-70E09B567B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864F8DD6-F3D2-4313-B76E-6587564E9870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864F8DD6-F3D2-4313-B76E-6587564E9870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864F8DD6-F3D2-4313-B76E-6587564E9870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864F8DD6-F3D2-4313-B76E-6587564E9870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538931F9-98DB-4FFB-BADD-02BE5E09C6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538931F9-98DB-4FFB-BADD-02BE5E09C6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538931F9-98DB-4FFB-BADD-02BE5E09C6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538931F9-98DB-4FFB-BADD-02BE5E09C6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE4D6D9-43E5-4EF8-8EB2-4B8D07C6E71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE4D6D9-43E5-4EF8-8EB2-4B8D07C6E71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE4D6D9-43E5-4EF8-8EB2-4B8D07C6E71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE4D6D9-43E5-4EF8-8EB2-4B8D07C6E71D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
