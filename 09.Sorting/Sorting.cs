@@ -39,14 +39,14 @@
         // 안정정렬   -  O
         public static void InsertionSort(IList<int> list, int start, int end)
         {
-            for (int i = start; i <= end; i++)//시작인덱스부터 마지막 인덱스까지 반복
+            for (int i = start+1; i <= end; i++)//시작인덱스부터 마지막 인덱스까지 반복
             {
                 for (int j = i; j >= 1; j--)//비교할 값i를 j에 대입, j가 1보다 작을 때까지 반복
                 {
                     if (list[j - 1] < list[j])//앞에 값보다 자신이 크다면
-
-                        break;  //stop 
-
+                    { 
+                    break;  //stop 
+                    }
                     Swap(list, j - 1, j); //앞에 값이 자신보다 크다면 교체
                 }
             }
@@ -76,7 +76,7 @@
         // 데이터 갯수만큼의 추가적인 메모리가 필요
         // 시간복잡도 -  O(nlogn)
         // 공간복잡도 -  O(n) //다른 정렬에 비해 공간활용도가 낮음
-        // 안정정렬   -  O
+        // 안정정렬   -  O(n)
 
 
         public static void MergeSort(IList<int> list, int start, int end)
@@ -177,8 +177,7 @@
             }
         }
         
-        //현업에서는 주로 Sort()보다 최적의 정렬을 생각해서 직접 구현하나요?
-       
+        
         private static void Heapify(IList<int> list, int index, int size)
         {
             int left = index * 2 + 1;

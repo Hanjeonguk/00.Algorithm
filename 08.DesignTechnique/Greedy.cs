@@ -17,18 +17,27 @@ namespace _08._DesignTechnique
 		 *************************************************************/
 
         // 예시 - 자판기 거스름돈
-        public void CoinMachine(int money)
+        public void CoinMachine(int money)//거스름돈
         {
-            int[] coinType = { 500, 100, 50, 10, 5, 1 };
+            int[] coinType = { 500, 100, 50, 10, 5,  1 };//코인 배열
 
-            foreach (int coin in coinType)
+            foreach (int coin in coinType)//동전 배열의 요소 반복
             {
-                while (money <= coin)
+                while (money <= coin)// 남은 거스름돈이 동전보다 작거나 같다면 반복
                 {
                     Console.WriteLine($"{coin} 코인 배출");
                     money -= coin;
                 }
-            }
+            }      
+        }
+        
+    }
+    public class Test
+    {
+        static void Main(string[] args)
+        {
+            Greedy greedy = new Greedy();
+            greedy.CoinMachine(600);
         }
     }
 }

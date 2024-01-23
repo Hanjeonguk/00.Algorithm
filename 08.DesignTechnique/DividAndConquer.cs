@@ -16,7 +16,7 @@ namespace _08._DesignTechnique
 		 **************************************************************************/
 
         // 예시 - 거듭 제곱
-        int Pow(int x, int n)
+        public int Pow(int x, int n)
         {
             if (n == 1) 
             {
@@ -25,6 +25,7 @@ namespace _08._DesignTechnique
 
             int result = Pow(x, n/2);
             return result * result;
+            
 
             //if (n % 2 == 0) //짝수일 때
             //{
@@ -36,9 +37,10 @@ namespace _08._DesignTechnique
             //}
         }
        
-        int Power(int x. int n) //0(n)
+        static void Main(string[] args)
         {
-            
+           
+            Pow(5, 2);
         }
     }
 }

@@ -64,21 +64,21 @@
 
         //연속합
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int count = int.Parse(Console.ReadLine());
             string text = Console.ReadLine();
-            string[] texts = text.Split(' ')
+            string[] texts = text.Split(' ');
 
                 List<int> values = new List<int>();
 
-            for(int i=)
+            for (int i =) 
 
-           
-            int max = int.MinValue;
-            //ex) [2,4] : 2~4 더한 값
-            int[,] result = new int[values.Length, values.Length];
-       
+
+                int max = int.MinValue;
+                //ex) [2,4] : 2~4 더한 값
+                int[,] result = new int[values.Length, values.Length];
+            
             for(int i =0; i<values.Length; i++)
             {
                 result[i, i] = values[i];
