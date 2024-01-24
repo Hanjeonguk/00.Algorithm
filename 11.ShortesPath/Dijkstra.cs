@@ -35,8 +35,6 @@ namespace _11._ShortestPath
             }
             distance[start] = 0; //시작지점 0;
 
-            
-
             for (int i = 0; i < size; i++) // 갯수만큼 반복
             {
                 // 1. 방문하지 않은 정점 중 가장 가까운 정점부터 탐색
@@ -74,11 +72,7 @@ namespace _11._ShortestPath
                     }
                 }
                 visited[next] = true;//방문한 정점 true 표기
-            }
-
-
-
-           
+            }     
         }
     }
 }
