@@ -9,7 +9,7 @@ namespace _11._ShortestPath
     internal class Dijkstra
     {
         /********************************************************************
-         * 데이크스트라 알고리즘 (Dijkstra Algorithm)
+         * 다익스트라 알고리즘 (Dijkstra Algorithm)
          * 
          * 특정한 노드에서 출발하여 다른 노드로 가는 각각의 최단 경로를 구함
          * 방문하지 않은 노드 중에서 최단 거리가 가장 짧은 노드를 선택 후,
